@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Machine learning has a huge impact in fields where theory-based models have failed to perform in a satisfactory manner. Examples of these fields are image processing, speech recognition, and machine translation. However, machine learning can also play an important role in improving methods in fields where physical theories have dominated. An important difference with aforementioned fields is that in physics dominated domains, the majority of the problem can be modeled using physical laws. Directly applying machine learning to map the input of the problem to some output of interest usually does not work that well. However, finding the step where the largest assumption is made and applying machine learning to this step can significantly improve the results of these methods. 
+Machine learning has a significant impact in fields where theory-based models have failed to perform in a satisfactory manner. Examples of these fields are image processing, speech recognition, and machine translation. However, machine learning can also play an important role in improving methods in fields where physical theories have dominated. An important difference with aforementioned fields is that in physics dominated domains, the majority of the problem can be modeled using physical laws. Directly applying machine learning to map the input of the problem to some output of interest usually does not work that well. However, finding the step where the largest assumption is made and applying machine learning to this step can significantly improve the results of these methods. 
 
 
 ## Field inversion and machine learning

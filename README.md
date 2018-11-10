@@ -119,13 +119,6 @@ where ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cdelta_%7Bij%7D) is
 ![](https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Cpartial%20R_%5Calpha%7D%7B%5Cpartial%20T_j%7D%20%3D%20%5Cdelta_%7B%5Calpha%20_j%7D%20%5Cleft%28%201%20&plus;%202%20T_%5Calpha%5E3%20%28%5CDelta%20z%29%5E2%20%5Cbeta_%5Calpha%20%5Cvarepsilon_0%20%5Cright%29%20-%20%5Cfrac%7B1%7D%7B2%7D%20%5Cdelta_%7B%5Calpha-1%2Cj%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%20%5Cdelta_%7B%5Calpha&plus;1%2Cj%7D)
 
 
-### Machine learning 
-
-In [1], Gaussian processes are used for the machine learning phase. Some preliminary investigations with random forests and neural networks show similar or slightly improved results. An important requirement for the machine learning phase is its capability of taking into account the variance information coming from the field inversion phase. As a next step I will look into using TensorFlow Probability [2] for implementing a Bayesian neural network to take into account the posterior variance of the field inversion phase. 
-
-
 
 
 [1] Parish, E. J., & Duraisamy, K. (2016). A paradigm for data-driven predictive modeling using field inversion and machine learning. Journal of Computational Physics, 305, 758-774.
-
-[2] https://www.tensorflow.org/probability/
